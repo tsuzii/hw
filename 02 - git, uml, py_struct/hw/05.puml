@@ -1,0 +1,22 @@
+@startuml
+start
+repeat :идти по улице\nсмотреть под ноги;
+repeat while (увидел под ногами 50 рублей) is (нет) not (да)
+if (поднять?) then (да)
+:испытать моральные муки;
+note
+ты сказочно богат
+end note
+else (нет)
+:испытать гордость;
+note
+всё так же беден
+end note
+endif
+:голодать;
+note
+голодаю
+end note
+:умереть;
+end
+@enduml
